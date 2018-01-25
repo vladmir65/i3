@@ -8,9 +8,9 @@
 set $mod Mod4
 font pango: Futura Bk BT, Material Design Icons 12
 # Start a terminal
-bindsym $mod+Return exec --no-startup-id alacritty
+bindsym $mod+Return exec --no-startup-id alacritty -e fish
 bindsym $mod+Shift+Return exec --no-startup-id urxvtc
-bindsym $mod+Ctrl+a exec xterm -e 'alsamixer' ;workspace 
+bindsym $mod+Ctrl+s exec Simplenote ;workspace 
 bindsym $mod+Ctrl+f exec 'fromscratch' ;workspace 
 bindsym $mod+Ctrl+n exec xterm -e ncmpcpp -S visualizer ;workspace 
 bindsym $mod+Ctrl+e exec emacsclient -c ;workspace 
