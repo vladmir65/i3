@@ -272,15 +272,15 @@ bindsym $mod+x  exec --no-startup-id pkill -f 'x11grab'
 bindsym $mod+grave exec --no-startup-id  i3lock -i /home/vladimir/.config/Aum[pic].png -n
 
 # My apps shortcut
-bindsym $mod+p exec --no-startup-id pcmanfm 
-bindsym $mod+b exec --no-startup-id luakit
+bindsym $mod+p exec --no-startup-id spacefm 
+bindsym $mod+b exec --no-startup-id opera
 
 # Theme switcher
 #bindsym $mod+F11 exec --no-startup-id ~/.local/bin/themeswitcher
 
 # Mpc play next song
-bindsym $mod+n exec --no-startup-id mpc next
-bindsym $mod+m exec --no-startup-id mpc toggle
+#bindsym $mod+n exec --no-startup-id mpc next
+#bindsym $mod+m exec --no-startup-id mpc toggle
 
 # Custom colors
 set_from_resource $black       color8  #000000
